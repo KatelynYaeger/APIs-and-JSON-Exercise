@@ -15,6 +15,9 @@ namespace APIsAndJSON
                 Console.WriteLine($"Ron: {RonVSKanyeAPI.RonQuote()}");
             }
 
+            OpenWeatherMapAPI.WeatherApp();
+
+
         }
     }
 }
